@@ -7,7 +7,7 @@ var status;
 
 //function to handle
 function handleRequests(request, response){
-  response.end(status + request.url);
+  response.end("It hit" + status + request.url);
 }
 
 //function to handle
@@ -18,6 +18,7 @@ function handleBadRequests(request, response){
 // server
 var server = http.createServer(handleRequests);
 var badserver = http.createServer(handleBadRequests);
+
 
 //LISTEN ON PORT 7000
 server.listen(GOODPORT, function(){

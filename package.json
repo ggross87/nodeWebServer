@@ -1,0 +1,19 @@
+{
+  "name": "nodewebserver",
+  "version": "1.0.0",
+  "description": "node server",
+  "main": "nodeWebServer.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ggross87/nodeWebServer.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ggross87/nodeWebServer/issues"
+  },
+  "homepage": "https://github.com/ggross87/nodeWebServer#readme"
+}
